@@ -4,7 +4,9 @@ This program utilizes the ChatGPT API to create an empathetic assistant for prof
 
 To run the program, please follow these steps:
 1. Install the necessary requirements by running `pip install -r requirements.txt`
-2. Run the program using `python chat_gradio.py`
+2. In the chat_gradio.py file, update the openAI key `openai.api_key = "_"`
+3. Run the program using `python chat_gradio.py`
+![image](https://github.com/TrangDoThuy/kossie_chatgpt/assets/30380242/ea6b6120-e8f3-4b7d-bdbc-d4f08b49fa94)
 
 ## How to Use the Program
 
@@ -17,6 +19,9 @@ After each answer, the ChatBot will show empathy without mentioning therapy. Ple
 The conversation will end with the ChatBot asking the client if they have any other concerns before reminding them that the program is here to support them. To close the session, the ChatBot will say "Goodbye!" 
 
 Once the conversation has concluded, the user can click the "Finish conversation" button, and the program will print a short summary of the client's mental issue from the conversation. The summary will be within 250 words.
+
+![image](https://github.com/TrangDoThuy/kossie_chatgpt/assets/30380242/d27dc8cb-f44e-46bc-aa5d-e0bb7356925c)
+
 
 ## Demo with Gradio
 
