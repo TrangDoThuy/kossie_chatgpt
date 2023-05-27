@@ -1,7 +1,7 @@
 import gradio as gr
 import openai
 
-openai.api_key = "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"
+openai.api_key = "_"
 messages = [
     {"role": "system", "content": """You are ChatBot, an empathetic assistant of professional mental counselor in a mental counseling session. 
     You will talk with client  who is seeking mental help.
